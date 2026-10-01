@@ -121,7 +121,8 @@ namespace UD_Workshop_Upload_Unlisted.Mod.Harmony
         [HarmonyCleanup]
         public static Exception RenderDynamicBook_AddTitle_Cleanup(MethodBase OriginalMethod, Exception Exception)
         {
-            if (OriginalMethod == null)
+            if (OriginalMethod == null
+                || OriginalMethod.Name != nameof(SteamWorkshopUploaderView.SubmitCurrentMod))
                 return Exception;
 
             string patchMethodName = $"{nameof(SteamWorkshopUploaderView_Patches)}.{nameof(SteamWorkshopUploaderView.SubmitCurrentMod)}";
