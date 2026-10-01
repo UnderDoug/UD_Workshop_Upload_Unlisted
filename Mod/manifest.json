@@ -1,0 +1,9 @@
+{
+    "id": "UD_Workshop_Upload_Unlisted",
+    "title": "Upload to Workshop Unlisted",
+    "description": "Adds a 4th option to the visibility dropdown in the Modding Toolkit Workshop Uploader for \"Unlisted\".",
+    "version": "1.0.0",
+    "author": "{{K-g-G-Y-G-g-K alternation|UnderDoug}}",
+    "tags": "Utils,Harmony,Workshop Upload",
+    "PreviewImage": "preview.png"
+}

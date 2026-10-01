@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>UD_Workshop_Upload_Unlisted</AssemblyName>
+		<PackageId>UD_Workshop_Upload_Unlisted</PackageId>
+		<Authors>UnderDoug</Authors>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <BaseIntermediateOutputPath>.dotnet\obj\</BaseIntermediateOutputPath>
+    <BaseOutputPath>.dotnet\bin\</BaseOutputPath>
+  </PropertyGroup>
+  <Import Project="../Mods.csproj" />
+  <ItemGroup>
+    <Compile Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+</Project>
