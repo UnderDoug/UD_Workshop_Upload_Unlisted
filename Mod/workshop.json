@@ -1,0 +1,8 @@
+{
+  "WorkshopId": 3811209384,
+  "Title": "Upload to Workshop Unlisted",
+  "Description": "Current version is v1.0.0\n\nAdds a 4th option to the visibility dropdown in the Modding Toolkit Workshop Uploader for \"Unlisted\", addressing issue tracker [url=https://gitlab.com/freehold/cavesofqud-public-issue-tracker/-/work_items/14891]#14891[/url].\n\nIt definitely works. This mod was uploaded, unlisted, to the workshop with this mod enabled, and has since been made public.\n\nSee [url=https://github.com/UnderDoug/UD_Workshop_Upload_Unlisted]the source[/url] if you are so inclined.",
+  "Tags": "Utils,Harmony,Workshop Upload",
+  "Visibility": "3",
+  "ImagePath": "preview.png"
+}
