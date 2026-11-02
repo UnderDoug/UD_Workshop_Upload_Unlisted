@@ -5,5 +5,11 @@
     "version": "1.0.0",
     "author": "{{K-g-G-Y-G-g-K alternation|UnderDoug}}",
     "tags": "Utils,Harmony,Workshop Upload",
-    "PreviewImage": "preview.png"
+    "PreviewImage": "preview.png",
+    "Directories": [
+        {
+            "Paths": [ "/" ],
+            "Build": "<2.0.211.57"
+        }
+    ]
 }
